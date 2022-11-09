@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Raleway:wght@400;700&family=Ubuntu&display=swap');
+
+:root{
+    --overpass: 'Overpass', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+    --bai:'Bai Jamjuree', sans-serif;
+}

@@ -1,0 +1,26 @@
+*{
+    /*Pushes Everything to the Corner*/
+    padding: 0;
+    margin: 0;
+}
+.no-text-dec{
+    text-decoration: none;
+}
+.bg-lightgreen{
+    background-color: lightseagreen;
+}
+.bg-purple{
+    background-color: rebeccapurple;
+}
+.text-steelblue{
+    color: steelblue;
+}
+.small{
+    font-size: 32px;
+}
+.text-dec{
+    text-decoration: overline;
+}
+.top-1rem{
+    margin-top: 3rem;
+}

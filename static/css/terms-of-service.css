@@ -1,0 +1,61 @@
+body{
+    background-color: #171616;
+}
+
+/*Hero*/
+.hero{
+    height: 200px;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-image: linear-gradient(to bottom, #171616, #272323);
+}
+.hero__banner-container{
+    display: flex;
+    height: 200px;
+}
+.hero__banner{
+    display: flex;
+    align-items: center;
+}
+.hero--banner-image{
+    width: 300px;
+    margin-left: 5rem;
+}
+
+/*Terms of Service*/
+.terms-of-service{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    height: fit-content;
+}
+.terms-of-service__container{
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5rem;
+    padding: 50px;
+
+    background-color: #1c1c1c;!important;
+    color: white;
+
+    /*Shadow*/
+    box-shadow: rgba(0, 0, 0, 0.9) 5px 10px 15px;
+}
+.terms-of-service__header{
+    font-family: var(--overpass);
+    font-size: 36px;
+}
+/*Text Under Header*/
+.terms-of-service__header .terms-of-service--paragraph{
+    margin-bottom: 2rem;
+}
+
+.terms-of-service--paragraph{
+    font-family: var(--bai);
+    font-size: 24px;
+    line-height: 1.8;
+    max-width: 90%;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: #171616;
+}
+
+/*Hero*/
+.hero{
+    height: 200px;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-image: linear-gradient(to bottom, #171616, #272323);
+}
+.hero__banner-container{
+    display: flex;
+    height: 200px;
+}
+.hero__banner{
+    display: flex;
+    align-items: center;
+}
+.hero--banner-image{
+    width: 300px;
+    margin-left: 5rem;
+}
