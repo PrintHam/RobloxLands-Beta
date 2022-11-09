@@ -7,7 +7,7 @@ body{
     height: 200px;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    background-image: linear-gradient(to bottom, #171616, #272323);
+    background-image: linear-gradient(to bottom, #171616, #1c1c1c);
 }
 .hero__banner-container{
     display: flex;
