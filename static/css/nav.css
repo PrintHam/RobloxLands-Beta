@@ -6,7 +6,7 @@
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .nav--title{
     font-size: 36px;
@@ -16,8 +16,10 @@
 }
 .nav__dropdown-sections{
     display: flex;
-    flex-direction: row;
-    gap: 5rem;
+}
+.nav__dropdown_container{
+    display: flex;
+    gap: 1rem;
 }
 .nav__dropdown-btn{
     width: 90px;
@@ -60,4 +62,9 @@
 /*Nav Selectors*/
 .nav__dropdown-content a:hover{
     opacity: 0.5;
+}
+@media only screen and (max-width: 700px){
+    .nav__dropdown_container{
+        flex-direction: column;
+    }
 }

@@ -6,7 +6,7 @@
     height: 1500px;
 }
 .home__info{
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
     gap: 10rem;
@@ -22,7 +22,6 @@
     font-size: 42px;
     padding-bottom: 1rem;
     max-width: 700px;
-    /*padding-left: 2rem;*/
 }
 .home__info--paragraph{
     color: white;
@@ -31,11 +30,9 @@
     line-height: 1.8;
     max-width: 700px;
     padding-bottom: 5rem;
-    /*padding-left: 2rem;*/
 }
 .home__info--contact-link{
     padding: 25px;
-    /*margin-left: 2rem;*/
     border-radius: 1rem;
     font-family: var(--bai);
     font-size: 22px;
