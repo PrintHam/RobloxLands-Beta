@@ -11,11 +11,18 @@
     justify-content: center;
     gap: 10rem;
 }
+/*First Home Info Row*/
+.home__info:nth-child(1){
+    display: flex;
+    align-items: center;
+}
 .home__info--header{
     color: white;
     font-family: var(--overpass);
     font-size: 42px;
     padding-bottom: 1rem;
+    max-width: 700px;
+    /*padding-left: 2rem;*/
 }
 .home__info--paragraph{
     color: white;
@@ -24,9 +31,11 @@
     line-height: 1.8;
     max-width: 700px;
     padding-bottom: 5rem;
+    /*padding-left: 2rem;*/
 }
 .home__info--contact-link{
     padding: 25px;
+    /*margin-left: 2rem;*/
     border-radius: 1rem;
     font-family: var(--bai);
     font-size: 22px;
@@ -57,8 +66,18 @@
     .home__info{
         flex-direction: column;
     }
+    .home__info--paragraph{
+        font-size: 20px;
+        max-width: 500px;
+    }
     .home__info--image{
         height: 400px;
         width: 600px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .home__info--image{
+        height: 300px;
+        width: 500px;
     }
 }
