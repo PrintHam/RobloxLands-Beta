@@ -7,7 +7,7 @@ body{
     height: 200px;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    background-image: linear-gradient(to bottom, #171616, #272323);
+    background-image: linear-gradient(to bottom, #171616, #1c1c1c);
 }
 .hero__banner-container{
     display: flex;
@@ -20,4 +20,41 @@ body{
 .hero--banner-image{
     width: 300px;
     margin-left: 5rem;
+}
+.contact{
+    height: 1400px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.contact__container{
+    display: flex;
+    flex-direction: column;
+
+    height: 1400px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+
+    border-radius: 1rem;
+
+    background-color: #1c1c1c;!important;
+    color: white;
+
+    /*Shadow*/
+    box-shadow: rgba(0, 0, 0, 0.9) 5px 10px 15px;
+}
+.contact__header{
+    font-family: var(--overpass);
+    font-size: 36px;
+}
+.contact--header{
+    padding-top: 5rem;
+    font-family: var(--overpass);
+    font-size: 32px;
+}
+.contact--paragraph{
+    font-family: var(--bai);
+    max-width: 700px;
+    font-size: 24px;
+    line-height: 1.8;
 }
