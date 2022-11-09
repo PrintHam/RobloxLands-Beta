@@ -7,7 +7,7 @@ body{
     height: 200px;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    background-image: linear-gradient(to bottom, #171616, #272323);
+    background-image: linear-gradient(to bottom, #171616, #1c1c1c);
 }
 .hero__banner-container{
     display: flex;
@@ -58,4 +58,9 @@ body{
     font-size: 24px;
     line-height: 1.8;
     max-width: 90%;
+}
+.terms-of-service--header{
+    font-family: var(--bai);
+    font-size: 42px;
+    padding-bottom: 2rem;
 }
